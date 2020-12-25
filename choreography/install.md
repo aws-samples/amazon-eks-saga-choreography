@@ -48,16 +48,15 @@ export GIT_URL=ssh://git-codecommit.ap-south-1.amazonaws.com/v1/repos
 
 ## Installation
 
-To install various projects for the Saga Choreography pattern, follow the instructions of each repository as listed below _and in that order._
+To install various projects of the Saga Choreography pattern, follow the instructions of each repository as listed below _and in that order._
 
-| Repository           | Remarks                                   |
-| -------------------- | ----------------------------------------- |
-| `eks-saga-aws`       | AWS IAM, SQS, SNS and Amazon ECR objects. |
-| `eks-saga-db`        | AWS RDS (MySQL) database.                 |
-| `eks-saga-cluster`   | Amazon EKS cluster.                       |
-| `eks-saga-orders`    | Orders microservice.                      |
-| `eks-saga-ordersrb`  | Orders rollback microservice.             |
-| `eks-saga-inventory` | Inventory microservice.                   |
-| `eks-saga-audit`     | Audit microservice.                       |
-| `eks-saga-trail`     | Trail microservice.                       |
-
+| Repository                                                                 | Remarks                                   |
+| -------------------------------------------------------------------------- | ----------------------------------------- |
+| [`eks-saga-aws`](https://gitlab.aws.dev/eks-saga/eks-saga-aws)             | AWS IAM, SQS, SNS and Amazon ECR objects. |
+| [`eks-saga-db`](https://gitlab.aws.dev/eks-saga/eks-saga-db)               | AWS RDS (MySQL) database.                 |
+| [`eks-saga-cluster`](https://gitlab.aws.dev/eks-saga/eks-saga-cluster)     | Amazon EKS cluster.                       |
+| [`eks-saga-orders`](https://gitlab.aws.dev/eks-saga/eks-saga-orders)       | Orders microservice.                      |
+| [`eks-saga-ordersrb`](https://gitlab.aws.dev/eks-saga/eks-saga-orders-rb)  | Orders rollback microservice.             |
+| [`eks-saga-inventory`](https://gitlab.aws.dev/eks-saga/eks-saga-inventory) | Inventory microservice.                   |
+| [`eks-saga-audit`](https://gitlab.aws.dev/eks-saga/eks-saga-audit)         | Audit microservice.                       |
+| [`eks-saga-trail`](https://gitlab.aws.dev/eks-saga/eks-saga-trail)         | Trail microservice.                       |
