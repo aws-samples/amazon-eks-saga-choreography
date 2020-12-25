@@ -1,12 +1,9 @@
 # Introduction
 
-This repository has installation and clean up instructions for implementing Saga Choreography pattern with Amazon EKS.
+This repository has installation and clean up instructions for implementing **Saga Choreography** pattern with Amazon EKS.
 
 ## Usage
 
-Use the table below for instructions on installation and clean-up for a given pattern.
+To install the Choreography pattern, see instructions [here.](choreography/install.md)
 
-| Pattern       | Installation                             | Clean-up                             |
-| ------------- | ---------------------------------------- | ------------------------------------ |
-| Choreography  | [Installation](choreography/install.md)  | [Clean-Up](choreography/cleanup.md)  |
-
+To remove the Choreography pattern, see instructions [here.](choreography/install.md)
