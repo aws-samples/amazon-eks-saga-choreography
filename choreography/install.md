@@ -35,28 +35,28 @@ The following CLI tools should be installed on the workstation.
 
 ### Environment variables
 
-The following environment variables will be referenced regularly in various repositories. Configuring them before hand will simplify the overall procedure.
+The following environment variables will be referenced regularly in various repositories during installation. Configuring them before hand is _required_ to simplify the overall procedure.
 
 ```bash
 # Set the AWS region ID where this demo will be run e.g. ap-south-1
 export REGION_ID=ap-south-1
 # Set the AWS acouunt ID where this demo will be run e.g. 123456789012
 export ACCOUNT_ID=123456789012
-# Set the URL of the `git` repo where this code is hosted e.g. Amazon Code Commit
-export GIT_URL=ssh://git-codecommit.ap-south-1.amazonaws.com/v1/repos
+# Set the URL of the `git` repo where this code is hosted e.g. AWS GitLab
+export GIT_URL=git@ssh.gitlab.aws.dev:eks-saga-choreography
 ```
 
 ## Installation
 
 To install various projects of the Saga Choreography pattern, follow the instructions of each repository as listed below _and in that order._
 
-| Repository                                                                 | Remarks                                   |
-| -------------------------------------------------------------------------- | ----------------------------------------- |
-| [`eks-saga-aws`](https://gitlab.aws.dev/eks-saga/eks-saga-aws)             | AWS IAM, SQS, SNS and Amazon ECR objects. |
-| [`eks-saga-db`](https://gitlab.aws.dev/eks-saga/eks-saga-db)               | AWS RDS (MySQL) database.                 |
-| [`eks-saga-cluster`](https://gitlab.aws.dev/eks-saga/eks-saga-cluster)     | Amazon EKS cluster.                       |
-| [`eks-saga-orders`](https://gitlab.aws.dev/eks-saga/eks-saga-orders)       | Orders microservice.                      |
-| [`eks-saga-ordersrb`](https://gitlab.aws.dev/eks-saga/eks-saga-orders-rb)  | Orders rollback microservice.             |
-| [`eks-saga-inventory`](https://gitlab.aws.dev/eks-saga/eks-saga-inventory) | Inventory microservice.                   |
-| [`eks-saga-audit`](https://gitlab.aws.dev/eks-saga/eks-saga-audit)         | Audit microservice.                       |
-| [`eks-saga-trail`](https://gitlab.aws.dev/eks-saga/eks-saga-trail)         | Trail microservice.                       |
+| Repository                                                                              | Remarks                                   |
+| --------------------------------------------------------------------------------------- | ----------------------------------------- |
+| [`eks-saga-aws`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-aws)             | AWS IAM, SQS, SNS and Amazon ECR objects. |
+| [`eks-saga-db`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-db)               | AWS RDS (MySQL) database.                 |
+| [`eks-saga-cluster`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-cluster)     | Amazon EKS cluster.                       |
+| [`eks-saga-orders`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-orders)       | Orders microservice.                      |
+| [`eks-saga-ordersrb`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-orders-rb)  | Orders rollback microservice.             |
+| [`eks-saga-inventory`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-inventory) | Inventory microservice.                   |
+| [`eks-saga-audit`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-audit)         | Audit microservice.                       |
+| [`eks-saga-trail`](https://gitlab.aws.dev/eks-saga-choreography/eks-saga-trail)         | Trail microservice.                       |
