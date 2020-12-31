@@ -46,6 +46,8 @@ export ACCOUNT_ID=123456789012
 export GIT_URL=git@ssh.gitlab.aws.dev:eks-saga-choreography
 ```
 
+Configure the AWS CLI with `aws configure` to use the same region ID as the value set for `REGION_ID` above.
+
 ## Installation
 
 To install various projects of the Saga Choreography pattern, follow the instructions of each repository as listed below _and in that order._
