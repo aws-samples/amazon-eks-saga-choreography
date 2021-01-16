@@ -1,3 +1,5 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. // SPDX-License-Identifier: CC-BY-SA-4.0
+
 # Introduction
 
 This document describes the steps to remove the demonstration of Saga - Choreography pattern.
