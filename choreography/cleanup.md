@@ -44,16 +44,16 @@ The following environment variables will be referenced regularly in various repo
 export REGION_ID=ap-south-1
 # Set the AWS acouunt ID where this demo will be run e.g. 123456789012
 export ACCOUNT_ID=123456789012
-# Set the URL of the `git` repo where this code is hosted e.g. Amazon Code Commit
-export GIT_URL=ssh://git-codecommit.ap-south-1.amazonaws.com/v1/repos
+# Set the URL of the `git` repo where this code is hosted e.g. GitHub
+export GIT_URL=https://github.com/aws-samples/<project>
 ```
 
 ## Clean up
 
 To remove various projects of the Saga Choreography pattern, follow the instructions of each repository as listed below _and in that order._
 
-| Repository                                                             | Remarks                                                |
-| ---------------------------------------------------------------------- | ------------------------------------------------------ |
-| [`eks-saga-cluster`](https://gitlab.aws.dev/eks-saga/eks-saga-cluster) | Amazon EKS cluster and the hosted microservices.       |
-| [`eks-saga-db`](https://gitlab.aws.dev/eks-saga/eks-saga-db)           | AWS RDS (MySQL) database and database objects.         |
-| [`eks-saga-aws`](https://gitlab.aws.dev/eks-saga/eks-saga-aws)         | AWS IAM, SQS, SNS objects and Amazon ECR repositories. |
+| Repository                                                                                | Remarks                                   |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------- |
+| [`eks-saga-cluster`](https://github.com/aws-samples/amazon-eks-saga-choreography-cluster) | Amazon EKS cluster.                       |
+| [`eks-saga-db`](https://github.com/aws-samples/amazon-eks-saga-choreography-db)           | AWS RDS (MySQL) database.                 |
+| [`eks-saga-aws`](https://github.com/aws-samples/amazon-eks-saga-choreography-aws)         | AWS IAM, SQS, SNS and Amazon ECR objects. |
