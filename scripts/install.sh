@@ -11,13 +11,13 @@ cd amazon-eks-saga-choreography-aws/scripts
 ./choreography.sh ${REGION_ID} ${ACCOUNT_ID}
 
 ### IAM set-up
-./iam.sh ${REGION_ID} ${ACCOUNT_ID} O
+./iam.sh ${REGION_ID} ${ACCOUNT_ID} C
 
 ### ECR set-up
 ./ecr.sh C
 
 ### Build and push images
-./images.sh ${REGION_ID} ${ACCOUNT_ID} ${GIT_URL} O
+./images.sh ${REGION_ID} ${ACCOUNT_ID} ${GIT_URL} C
 cd
 
 ## AWS RDS set-up
